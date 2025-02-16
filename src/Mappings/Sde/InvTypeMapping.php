@@ -30,7 +30,7 @@ class InvTypeMapping extends AbstractSdeMapping
             'raceID'        => $row[8],
             'basePrice'     => $row[9],
             'published'     => $row[10],
-            'marketGroupID' => $row[11],
+            'marketGroupId' => $row[11],
             'iconID'        => $row[12],
             'graphicID'     => $row[14],
         ]))->bypassReadOnly();
