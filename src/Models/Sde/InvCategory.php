@@ -21,7 +21,7 @@ class InvCategory extends AbstractSdeModel
     /**
      * @var string
      */
-    protected $table = 'invCategory';
+    protected $table = 'invCategories';
 
     /**
      * @var string

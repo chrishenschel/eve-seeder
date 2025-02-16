@@ -9,7 +9,7 @@ trait IsReadOnly
 /**
      * @var bool
      */
-    protected static bool $bypass_read_only = false;
+    protected static bool $bypass_read_only = true;
 
     /**
      * @param  array  $attributes
